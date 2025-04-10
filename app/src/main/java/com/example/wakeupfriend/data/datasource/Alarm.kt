@@ -1,4 +1,8 @@
 package com.example.wakeupfriend.data.datasource
 
-class Alarm {
-}
+data class Alarm(
+    val id: Int,
+    var phoneNumber: String = "",
+    var message: String = "",
+    var alarmTime: String = ""
+)
